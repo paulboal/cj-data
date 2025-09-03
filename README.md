@@ -16,7 +16,7 @@ Review the [cj.ipynb] Python notebook and the [plotter.py] Python file containin
 
 This is a Python Jupyter notebook. You can run it using [Anaconda Python](https://www.anaconda.com/download) in the provided Jupyter server or using the Jupyter interface in your favorite IDE (e.g., Microsoft Visual Studio Code).  Required libraries are provided in the requirements.txt file.
 
-To change which files you are processing, put the input file in this directory and then change the input and output file names in section 2 of the [moab.ipynb].
+To change which files you are processing, put the input file in this directory and then change the input and output file names in section 2 of the [cj.ipynb].
 
 ## Process Steps
 
