@@ -115,7 +115,7 @@ class Plotter:
 
     def plot(self, xs=[], ys=[], colors=[], shadings={},         
         subcell_size_px=50,
-        base_su=(1, 1),
+        base_tile=(1, 1),
         height_tiles=3,
         width_tiles=3,
         subcell_text=False,
@@ -150,8 +150,8 @@ class Plotter:
         
                 tile_x = tx * tile_size_x_px
                 tile_y = ty * tile_size_y_px
-                tile_x_n = base_su[0]-1 + tx
-                tile_y_n = base_su[1]-1 + height_tiles - ty - 1
+                tile_x_n = base_tile[0]-1 + tx
+                tile_y_n = base_tile[1]-1 + height_tiles - ty - 1
                 tile = self._tile_label(tile_x_n, tile_y_n)
 
                 tile_box = [tile_x, tile_y, (tx+1) * tile_size_x_px, (ty+1) * tile_size_y_px]
